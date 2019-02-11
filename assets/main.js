@@ -1,0 +1,2 @@
+$(document).ready(function(){if($("#home-sidebar").sliderPro({width:"100%",height:300,arrows:!0,buttons:!1,waitForLayers:!0,autoplay:!0,autoplayDelay:8e3,autoScaleLayers:!1,breakpoints:{360:{height:500},640:{height:300}}}),0!=$(".sidebars").length){for(var t=["left","top","right","bottom"],a=0;a<t.length;++a){var e=t[a];$(".sidebar."+e).sidebar({side:e})}$(".sidebar-btn[data-action]").on("click",function(){var t=$(this),a=t.attr("data-action"),e=t.attr("data-side");return $(".sidebar."+e).trigger("sidebar:"+a),!1})}});
+//# sourceMappingURL=maps/main.js.map
